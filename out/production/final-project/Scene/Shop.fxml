@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene.ShopController">
+   <children>
+      <GridPane layoutY="167.0" prefHeight="553.0" prefWidth="741.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../resources/sword_01a.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../resources/sword_01b.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../resources/bow_02a.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../resources/sword_01c.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../resources/bow_02b.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../resources/bow_02cc.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+               <image>
+                  <Image url="@../resources/staff_02ab.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../resources/staff_02b.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../resources/staff_02c.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER">
+               <image>
+                  <Image url="@../resources/armor_01a.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../resources/armor_01b.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../resources/armor_01c.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="woodSword" fitHeight="187.0" fitWidth="187.0" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@../resources/Time%20&amp;%20weather.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="48.0" minX="224.0" minY="15.0" width="48.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fx:id="woodBow" fitHeight="187.0" fitWidth="187.0" pickOnBounds="true" smooth="false" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@../resources/Time%20&amp;%20weather.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="48.0" minX="224.0" minY="15.0" width="48.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fx:id="woodWand" fitHeight="187.0" fitWidth="187.0" pickOnBounds="true" smooth="false" GridPane.columnIndex="2">
+               <image>
+                  <Image url="@../resources/Time%20&amp;%20weather.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="48.0" minX="224.0" minY="15.0" width="48.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fx:id="woodArmour" fitHeight="187.0" fitWidth="187.0" pickOnBounds="true" smooth="false" GridPane.columnIndex="3">
+               <image>
+                  <Image url="@../resources/Time%20&amp;%20weather.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="48.0" minX="224.0" minY="15.0" width="48.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fx:id="ironSword" fitHeight="187.0" fitWidth="187.0" pickOnBounds="true" smooth="false" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../resources/Time%20&amp;%20weather.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="48.0" minX="224.0" minY="15.0" width="48.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fx:id="ironBow" fitHeight="187.0" fitWidth="187.0" pickOnBounds="true" smooth="false" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../resources/Time%20&amp;%20weather.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="48.0" minX="224.0" minY="15.0" width="48.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fx:id="ironWand" fitHeight="187.0" fitWidth="187.0" pickOnBounds="true" smooth="false" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../resources/Time%20&amp;%20weather.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="48.0" minX="224.0" minY="15.0" width="48.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fx:id="ironArmour" fitHeight="187.0" fitWidth="187.0" pickOnBounds="true" smooth="false" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../resources/Time%20&amp;%20weather.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="48.0" minX="224.0" minY="15.0" width="48.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fx:id="diamondSword" fitHeight="187.0" fitWidth="187.0" pickOnBounds="true" smooth="false" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../resources/Time%20&amp;%20weather.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="48.0" minX="224.0" minY="15.0" width="48.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fx:id="diamondBow" fitHeight="187.0" fitWidth="187.0" pickOnBounds="true" smooth="false" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../resources/Time%20&amp;%20weather.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="48.0" minX="224.0" minY="15.0" width="48.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fx:id="diamondWand" fitHeight="187.0" fitWidth="187.0" pickOnBounds="true" smooth="false" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../resources/Time%20&amp;%20weather.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="48.0" minX="224.0" minY="15.0" width="48.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fx:id="diamondArmour" fitHeight="187.0" fitWidth="187.0" pickOnBounds="true" smooth="false" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../resources/Time%20&amp;%20weather.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="48.0" minX="224.0" minY="15.0" width="48.0" />
+               </viewport>
+            </ImageView>
+         </children>
+      </GridPane>
+      <AnchorPane layoutX="742.0" prefHeight="721.0" prefWidth="338.0">
+         <children>
+            <Text fx:id="nameText" layoutX="61.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" wrappingWidth="93.3367919921875" />
+            <Text fx:id="priceText" layoutX="61.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:" wrappingWidth="116.21875" />
+            <Text fx:id="statusText" layoutX="61.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status:" wrappingWidth="170.13671875" />
+            <ImageView fitHeight="176.0" fitWidth="200.0" layoutX="69.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="woodArmour1" fitHeight="187.0" fitWidth="187.0" layoutX="76.0" layoutY="89.0" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@../resources/Time%20&amp;%20weather.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="48.0" minX="224.0" minY="15.0" width="48.0" />
+               </viewport>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
